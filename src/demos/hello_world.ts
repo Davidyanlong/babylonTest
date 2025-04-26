@@ -30,5 +30,7 @@ export const helloWorldScene = function (engine:BABYLON.Engine, canvas:HTMLCanva
 
 
     return scene;
+
+
 };
 

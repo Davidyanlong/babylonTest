@@ -15,20 +15,13 @@ import { latheDemo } from '../demos/lathe'
 import { particleSystemDemo } from '../demos/particle'
 import { streetLightDemo } from '../demos/street_light'
 import { shawdowDemo } from '../demos/shadow'
-import { animationSildeDemo } from '../demos/animations/animation_slide'
-import { squencingAnimationDemo } from '../demos/animations/sequencing'
-import { groupAnimationDemo } from '../demos/animations/group'
-import { combinAnimationDemo } from '../demos/animations/combining'
-import { characterAnimationDemo } from '../demos/animations/character'
-import { WASD_characterAnimationDemo } from '../demos/animations/character_wasd'
-import { advanceAnmiationDemo } from '../demos/animations/advance'
-import { controlAnimationDemo } from '../demos/animations/control'
-import { advanceAdditiveAnmiationDemo } from '../demos/animations/advance_additive'
-import { advanceAdditiveOffsetAnmiationDemo } from '../demos/animations/advance_additive_offset'
-import { easingFunctionDemo } from '../demos/animations/easing_function'
-import { logAnimationDemo } from '../demos/animations/log_animation'
-import { onBeforeRenderObservableDemo } from '../demos/animations/onBeforeRenderObservable'
-import { VATDemo } from '../demos/animations/vat'
+
+//动画相关的demo
+import '../demos/animations/index'
+import '../demos/behaviors/index'
+
+
+
 
 
 // 注册案例
@@ -46,20 +39,9 @@ DemoInstance.add('lathe', latheDemo);
 DemoInstance.add('particlesystem', particleSystemDemo);
 DemoInstance.add('streetLight', streetLightDemo);
 DemoInstance.add('shawdow', shawdowDemo);
-DemoInstance.add('animationsilde', animationSildeDemo);
-DemoInstance.add('squencingAnimation', squencingAnimationDemo);
-DemoInstance.add('groupAnimation', groupAnimationDemo);
-DemoInstance.add('combinAnimation', combinAnimationDemo);
-DemoInstance.add('characterAnimation',characterAnimationDemo);
-DemoInstance.add('wasdcharacterAnimation', WASD_characterAnimationDemo);
-DemoInstance.add('advanceanmiation', advanceAnmiationDemo);
-DemoInstance.add('controlanimation', controlAnimationDemo);
-DemoInstance.add('advanceadditiveanmiation',advanceAdditiveAnmiationDemo);
-DemoInstance.add('advanceadditiveOffsetanmiation', advanceAdditiveOffsetAnmiationDemo);
-DemoInstance.add('easingfunction', easingFunctionDemo);
-DemoInstance.add('loganimation', logAnimationDemo);
-DemoInstance.add('onbeforerenderobservable', onBeforeRenderObservableDemo);
-DemoInstance.add('vat', VATDemo);
 
 
-export const currDemo = 'vat';
+
+
+
+export const currDemo = 'surfacemagnetismbehavior';
