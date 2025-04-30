@@ -16,6 +16,18 @@ import { BABYLON } from "../../base/commonIncludes";
  * https://doc.babylonjs.com/divingDeeper/importers/loadingFileTypes
  */
 
+
+ 
+/* CONTROLS
+* - Keyboard
+*  WASD Keys - Move/Strafe
+*  Arrow Keys - Look Around
+* - Mouse
+*  Left-Click+Move - Look Around
+* - Touch
+*  Drag - Look Around
+*  Two-finger Touch - Move Forward
+*/
 var omittedMeshes:BABYLON.Mesh[] = [];
 
 export const pictureInPictuceVistualCameraDemo = function (engine:BABYLON.Engine, canvas:HTMLCanvasElement) {
