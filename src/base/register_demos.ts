@@ -19,20 +19,9 @@ import { shawdowDemo } from '../demos/shadow'
 //动画相关的demo
 import '../demos/animations/index'
 import '../demos/behaviors/index'
+import '../demos/cameras/index'
 
-import { universalCameraDemo } from '../demos/cameras/universal_camera'
-import { arcRotateCameraDemo } from '../demos/cameras/arc_rotate_camera'
-import { arcRotateCameraDemo2 } from '../demos/cameras/arc_rotate_camera2'
-import { arcRotateCameraDemo3 } from '../demos/cameras/arc_rotate_camera3'
-import { followCameraDemo } from '../demos/cameras/follow_camera'
-import { collisionCameraDemo } from  '../demos/cameras/collision_base'
-import { collisionMeshDemo } from '../demos/cameras/collision_mesh'
-import { customInputCamera1Demo } from '../demos/cameras/customizing_inputs1'
-import { walkLookAroundCameraDemo } from '../demos/cameras/walk_look_around_camera'
-import { freeCameraPointersInputDemo } from '../demos/cameras/free_camera_pointers_input'
-import { viewportDemo } from '../demos/cameras/viewport'
-import { gunSightDemo } from '../demos/cameras/gun_sight'
-import { pictureInPictuceVistualCameraDemo } from '../demos/cameras/picture_in_picture'
+
 
 
 
@@ -55,19 +44,6 @@ DemoInstance.add('streetLight', streetLightDemo);
 DemoInstance.add('shawdow', shawdowDemo);
 
 
-DemoInstance.add('scrollwheelcamera',universalCameraDemo)
-DemoInstance.add('arcrotatecamera',arcRotateCameraDemo);
-DemoInstance.add('arcrotatecamera2', arcRotateCameraDemo2);
-DemoInstance.add('arcrotatecamera3', arcRotateCameraDemo3);
-DemoInstance.add('followcamera',followCameraDemo);
-DemoInstance.add('collisioncamera', collisionCameraDemo);
-DemoInstance.add('collisionmesh', collisionMeshDemo);
-DemoInstance.add('custominputcamera1', customInputCamera1Demo);
-DemoInstance.add('walklookaroundcamera', walkLookAroundCameraDemo)
-DemoInstance.add('freecamerapointersinput', freeCameraPointersInputDemo);
-DemoInstance.add('viewport', viewportDemo);
-DemoInstance.add('gunsight', gunSightDemo);
-DemoInstance.add('pictureinpictucevistualcamera', pictureInPictuceVistualCameraDemo);
 
 
 
