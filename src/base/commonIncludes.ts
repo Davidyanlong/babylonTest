@@ -5,6 +5,7 @@ import "@babylonjs/loaders/glTF";
 import earcut  from 'earcut';
 import * as dat from 'dat.gui';
 import CANNON from 'cannon'
+import  Assets from '@babylonjs/assets'
 
-
-export { earcut, GUI, dat , CANNON}
+// console.log(Assets)
+export { earcut, GUI, dat , CANNON, Assets}

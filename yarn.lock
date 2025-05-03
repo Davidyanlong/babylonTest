@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@babylonjs/assets@^5.20.0":
+  version "5.20.0"
+  resolved "https://registry.yarnpkg.com/@babylonjs/assets/-/assets-5.20.0.tgz#6126b093c1444112d5c3f405937aae9bf9f168d2"
+  integrity sha512-a6Mm519h9XtXg8Of0qC+DmwWp+jcolZv+Z/LSG+b/8Fh7kS3gFjHXctKSrln2zMiTxcbYfeBqtOUpGtlV8F2bA==
+
+"@babylonjs/controls@^2.0.0-alpha.1":
+  version "2.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@babylonjs/controls/-/controls-2.0.0-alpha.1.tgz#c31654c2bbe16f5ab689197264f7646332497704"
+  integrity sha512-aiL3kvy9A5RH+RYtngNdWpfDDbq/yGEKSCtj6TwInl0qY36XdlgPs832OVMlpT97CSY5c3nG7BSWnBoFIPg5qQ==
+  dependencies:
+    tslib "^2.3.1"
+
 "@babylonjs/core@^8.3.1":
   version "8.3.1"
   resolved "https://registry.yarnpkg.com/@babylonjs/core/-/core-8.3.1.tgz#281477b72e95d26499bcae37c3ab22be014358fa"
@@ -383,6 +395,11 @@ tinyglobby@^0.2.12:
   dependencies:
     fdir "^6.4.4"
     picomatch "^4.0.2"
+
+tslib@^2.3.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 typescript@~5.7.2:
   version "5.7.3"
