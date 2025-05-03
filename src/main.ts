@@ -26,11 +26,3 @@ app.then(_app=>{
 // https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToVideo/
 
 
-// 跳过部分:
-
-// The Scene Optimizer  https://doc.babylonjs.com/features/featuresDeepDive/scene/sceneOptimizer/
-// Optimizing With Octrees https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeOctrees/
-// Optimizing Using Cached Resources https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeCached/
-// Floating Origin  https://doc.babylonjs.com/features/featuresDeepDive/scene/floating_origin/
-// Offscreen Canvas https://doc.babylonjs.com/features/featuresDeepDive/scene/offscreenCanvas/
-// In-Depth layerMask  https://doc.babylonjs.com/features/featuresDeepDive/scene/layermask/
