@@ -6,6 +6,6 @@ import earcut  from 'earcut';
 import * as dat from 'dat.gui';
 import CANNON from 'cannon'
 import  Assets from '@babylonjs/assets'
-
+import "@babylonjs/inspector";""
 // console.log(Assets)
 export { earcut, GUI, dat , CANNON, Assets}

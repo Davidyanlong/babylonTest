@@ -23,6 +23,6 @@ app.then(_app=>{
 })
 
 //  学习进度
-// https://doc.babylonjs.com/features/featuresDeepDive/scene/renderToVideo/
+// https://doc.babylonjs.com/features/featuresDeepDive/materials/using/masterPBR/
 
 
