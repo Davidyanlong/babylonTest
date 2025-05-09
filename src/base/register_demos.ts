@@ -23,10 +23,8 @@ import '../demos/behaviors/index'
 import '../demos/cameras/index'
 import '../demos/scenes/index'
 import '../demos/materials/index'
+import '../demos/shaders/index'
 
-import { customShaderScene } from '../demos/shaders/custom_shaders'
-import { computeShaderScene } from '../demos/shaders/compute_shader'
-import { computeShaderBlurScene } from '../demos/shaders/compute_shader_blur'
 
 
 
@@ -52,9 +50,6 @@ DemoInstance.add('shawdow', shawdowDemo);
 
 
 
-DemoInstance.add('customshader', customShaderScene);
-DemoInstance.add('computeshader', computeShaderScene, true);
-DemoInstance.add('computeshaderblur', computeShaderBlurScene, true);
 
 
 
