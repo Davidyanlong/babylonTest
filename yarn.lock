@@ -53,6 +53,11 @@
   resolved "https://registry.yarnpkg.com/@babylonjs/node-editor/-/node-editor-8.6.1.tgz#e4d84cd9860a802bf7b6d851c5555968248704f8"
   integrity sha512-z9vMB8HmT3k04At5B27AsYjD2GCKnZJL2zm90PHmh4fgNCJshi18wGU3fA0srp/3/HqyqW52Ie2NnFY17e5Guw==
 
+"@babylonjs/procedural-textures@^8.6.1":
+  version "8.6.2"
+  resolved "https://registry.yarnpkg.com/@babylonjs/procedural-textures/-/procedural-textures-8.6.2.tgz#803321ebf283332c3a8d55e22540e970b37bd4f8"
+  integrity sha512-B0gD3wX8Wl7txY/xXOBierCdfwqaUjIt17b1g1FkHMWMQR88OmVgUNPj+/8esR5qMMGIAMe3ENx8JYOKdwt3Gg==
+
 "@babylonjs/serializers@^8.6.1":
   version "8.6.1"
   resolved "https://registry.yarnpkg.com/@babylonjs/serializers/-/serializers-8.6.1.tgz#8449cda4221ef93701430cbe86b730d357f09a0d"

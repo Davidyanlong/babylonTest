@@ -1,7 +1,8 @@
 import { app } from './base/app'
 import  './base/register_demos'
 import { DemoInstance } from "./base/register";
-import { currDemo } from './base/register_demos';
+import { currDemo, isWebGPU } from './base/register_demos';
+import { BABYLON } from './base/commonIncludes';
 
 
 // 构建场景
@@ -15,11 +16,21 @@ app.then(_app=>{
 
   console.assert(!!testSence, `${demoName}不存在`);
   
-  const _scene = testSence!(_app.getEngine(), _app.getCanvasDom())
+  let engine = _app.getEngine(isWebGPU);
+  let promise:Promise<void>
+  if(isWebGPU){
+    promise = (engine as BABYLON.WebGPUEngine).initAsync();
+  }else{
+    promise = Promise.resolve(undefined)
+  }
 
+  promise.then(()=>{
+    const _scene = testSence!(engine, _app.getCanvasDom())
+    _app.addScene(_scene);
+    _app.startRenderLoop();
+  })
 
-  _app.addScene(_scene);
-  _app.startRenderLoop();
+ 
 })
 
 //  学习进度

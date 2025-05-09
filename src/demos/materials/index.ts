@@ -28,6 +28,10 @@ import { pbrScene } from './pbr'
 import { pbrSpecularReflectionScene } from './pbr_specular_reflection'
 import { noiseTextureScene } from './noise_texture'
 import { materialPluginsScene } from './material_plugins'
+import { advancedMaterialScene } from "./advance_material";
+import { texturePackageScene } from "./texture_package";
+import { compressedTextureScene } from "./compressed_texture";
+import { renderPassIdScene } from "./render_pass_id";
 
 
 
@@ -59,3 +63,13 @@ DemoInstance.add('pbr', pbrScene);
 DemoInstance.add('pbrspecularreflection', pbrSpecularReflectionScene);
 DemoInstance.add('noiseTexture', noiseTextureScene)
 DemoInstance.add('materialplugins', materialPluginsScene)
+
+DemoInstance.add('advancedmaterial', advancedMaterialScene)
+DemoInstance.add('texturepackage', texturePackageScene)
+DemoInstance.add('compressedtexture', compressedTextureScene)
+DemoInstance.add('renderPassId',renderPassIdScene)
+
+// 跳过没有学的内容
+// https://doc.babylonjs.com/features/featuresDeepDive/materials/node_material/
+// https://doc.babylonjs.com/features/featuresDeepDive/materials/advanced/transparent_rendering/
+// https://doc.babylonjs.com/features/featuresDeepDive/materials/advanced/rawTexture/

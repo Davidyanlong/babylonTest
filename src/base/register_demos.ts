@@ -16,12 +16,17 @@ import { particleSystemDemo } from '../demos/particle'
 import { streetLightDemo } from '../demos/street_light'
 import { shawdowDemo } from '../demos/shadow'
 
+
 //动画相关的demo
 import '../demos/animations/index'
 import '../demos/behaviors/index'
 import '../demos/cameras/index'
 import '../demos/scenes/index'
 import '../demos/materials/index'
+
+import { customShaderScene } from '../demos/shaders/custom_shaders'
+import { computeShaderScene } from '../demos/shaders/compute_shader'
+import { computeShaderBlurScene } from '../demos/shaders/compute_shader_blur'
 
 
 
@@ -47,9 +52,14 @@ DemoInstance.add('shawdow', shawdowDemo);
 
 
 
+DemoInstance.add('customshader', customShaderScene);
+DemoInstance.add('computeshader', computeShaderScene, true);
+DemoInstance.add('computeshaderblur', computeShaderBlurScene, true);
 
 
 
 
 
-export const currDemo = 'materialplugins';
+
+export const currDemo = 'renderPassId';
+export const isWebGPU = DemoInstance.isWebGPU(currDemo);

@@ -4,7 +4,7 @@ import { BABYLON } from "./commonIncludes";
 export class App {
     private _canvas: HTMLCanvasElement | null;
     private _isInit : boolean;
-    private _engine: BABYLON.Engine | null;
+    private _engine: BABYLON.Engine|BABYLON.WebGPUEngine | null;
     private _sceneToRender: BABYLON.Scene | null
     
     constructor(){
@@ -60,10 +60,20 @@ export class App {
         return this._canvas;
     }
 
-    getEngine():BABYLON.Engine{
+    getEngine(isWebGPU = false):BABYLON.Engine | BABYLON.WebGPUEngine {
         if(!this._engine){
             let canvas = this.getCanvasDom();
-            this._engine = new BABYLON.Engine(canvas, true, { preserveDrawingBuffer: true, stencil: true,  disableWebGL2Support: false});
+            if(isWebGPU){
+                this._engine = new BABYLON.WebGPUEngine(canvas, {
+                    enableAllFeatures: true,
+                    setMaximumLimits: true,
+                    antialias:true,
+                    useHighPrecisionMatrix: true,
+                }); 
+              
+            }else{
+                this._engine = new BABYLON.Engine(canvas, true, { preserveDrawingBuffer: true, stencil: true,  disableWebGL2Support: false});
+            }
         }
 
         return this._engine;
