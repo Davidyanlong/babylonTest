@@ -8,6 +8,7 @@ import CANNON from 'cannon'
 import  Assets from '@babylonjs/assets'
 import "@babylonjs/inspector";""
 export  * as  proceduraTextures from  "@babylonjs/procedural-textures"
+import { PBRCustomMaterial } from "@babylonjs/materials/custom/pbrCustomMaterial";
+import { CustomMaterial } from "@babylonjs/materials/custom/customMaterial";
 
-
-export { earcut, GUI, dat , CANNON, Assets}
+export { earcut, GUI, dat , CANNON, Assets, PBRCustomMaterial,CustomMaterial}

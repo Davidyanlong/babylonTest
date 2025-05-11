@@ -24,6 +24,7 @@ import '../demos/cameras/index'
 import '../demos/scenes/index'
 import '../demos/materials/index'
 import '../demos/shaders/index'
+import '../demos/lights/index'
 
 
 
@@ -56,5 +57,7 @@ DemoInstance.add('shawdow', shawdowDemo);
 
 
 
-export const currDemo = 'renderPassId';
+
+
+export const currDemo = 'volumetriclightscattering';
 export const isWebGPU = DemoInstance.isWebGPU(currDemo);
