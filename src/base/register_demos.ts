@@ -17,14 +17,16 @@ import { streetLightDemo } from '../demos/street_light'
 import { shawdowDemo } from '../demos/shadow'
 
 
-//动画相关的demo
-import '../demos/animations/index'
-import '../demos/behaviors/index'
-import '../demos/cameras/index'
-import '../demos/scenes/index'
-import '../demos/materials/index'
-import '../demos/shaders/index'
-import '../demos/lights/index'
+// 相关的demo
+import '../demos/animations/'
+import '../demos/behaviors/'
+import '../demos/cameras/'
+import '../demos/scenes/'
+import '../demos/materials/'
+import '../demos/shaders/'
+import '../demos/lights/'
+import '../demos/meshes/'
+
 
 
 
@@ -59,5 +61,7 @@ DemoInstance.add('shawdow', shawdowDemo);
 
 
 
-export const currDemo = 'volumetriclightscattering';
+
+
+export const currDemo = 'occlusionqueries';
 export const isWebGPU = DemoInstance.isWebGPU(currDemo);

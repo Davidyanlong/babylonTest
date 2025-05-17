@@ -66,7 +66,7 @@ export const showAxis = (size:number, scene:BABYLON.Scene) => {
 };
   
 // 绘制局部坐标
-export const localAxes = (size:number, scene:BABYLON.Scene) => {
+export const localAxes = (size:number, scene?:BABYLON.Scene) => {
     // 绘制 x 轴线条
     const local_axisX = BABYLON.MeshBuilder.CreateLines("local_axisX", { points: [
          BABYLON.Vector3.Zero(), 
