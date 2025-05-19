@@ -104,7 +104,7 @@ const demo2 = (scene:BABYLON.Scene,canvas:HTMLCanvasElement) => {
 
     // Create a flat ground and apply some sin to make it wave
     let createGround = (name:string, freq:number=0, smooth:number=0) => {
-        const ground = BABYLON.MeshBuilder.CreateGround(name, {width: 100, height: 100, subdivisions: 200, sideOrientation: BABYLON.Mesh.DOUBLESIDE, updatable: true});
+        const ground = BABYLON.MeshBuilder.CreateGround(name, {width: 100, height: 100, subdivisions: 200, updatable: true});
 
         if (freq) {
             // Let's wave it

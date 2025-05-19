@@ -27,6 +27,8 @@ import '../demos/shaders/'
 import '../demos/lights/'
 import '../demos/meshes/'
 
+import { deviceSourceManagerScene } from '../demos/inputs/DeviceSourceManager'
+
 
 
 
@@ -52,6 +54,7 @@ DemoInstance.add('streetLight', streetLightDemo);
 DemoInstance.add('shawdow', shawdowDemo);
 
 
+DemoInstance.add('devicesourcemanager', deviceSourceManagerScene)
 
 
 
@@ -63,5 +66,6 @@ DemoInstance.add('shawdow', shawdowDemo);
 
 
 
-export const currDemo = 'occlusionqueries';
+
+export const currDemo = 'devicesourcemanager';
 export const isWebGPU = DemoInstance.isWebGPU(currDemo);
