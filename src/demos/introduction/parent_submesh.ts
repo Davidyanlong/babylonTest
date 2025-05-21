@@ -1,5 +1,5 @@
-import { BABYLON } from "../base/commonIncludes";
-import { localAxes, showAxis } from "../utils/axis";
+import { BABYLON } from "../../base/commonIncludes";
+import { localAxes, showAxis } from "../../utils/axis";
 
 export const parentSubmeshDemo = function (
   engine: BABYLON.Engine,

@@ -1,4 +1,4 @@
-import { BABYLON, GUI } from "../base/commonIncludes";
+import { BABYLON, GUI } from "../../base/commonIncludes";
 // import { showAxis } from "../utils/axis";
 
 // 场景基本的构建方法

@@ -1,4 +1,4 @@
-import { BABYLON } from "../base/commonIncludes";
+import { BABYLON } from "../../base/commonIncludes";
 // 模型加载的方法
 // BABYLON.ImportMeshAsync(folder_path + file_name, scene, optionalOptions);
 

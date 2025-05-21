@@ -1,4 +1,4 @@
-import { BABYLON, earcut } from "../base/commonIncludes";
+import { BABYLON, earcut } from "../../base/commonIncludes";
 
 export const extrudePolygonDemo = function (
   engine: BABYLON.Engine,

@@ -1,4 +1,4 @@
-import { BABYLON } from "../base/commonIncludes";
+import { BABYLON } from "../../base/commonIncludes";
 
 // 场景基本的构建方法
 export const skeletonsDemo = function (
