@@ -26,11 +26,8 @@ import '../demos/materials/'
 import '../demos/shaders/'
 import '../demos/lights/'
 import '../demos/meshes/'
-
-import { deviceSourceManagerScene } from '../demos/inputs/DeviceSourceManager'
-
-
-
+import '../demos/events/'
+import '../demos/inputs/'
 
 
 
@@ -54,7 +51,6 @@ DemoInstance.add('streetLight', streetLightDemo);
 DemoInstance.add('shawdow', shawdowDemo);
 
 
-DemoInstance.add('devicesourcemanager', deviceSourceManagerScene)
 
 
 
@@ -67,5 +63,7 @@ DemoInstance.add('devicesourcemanager', deviceSourceManagerScene)
 
 
 
-export const currDemo = 'devicesourcemanager';
+
+
+export const currDemo = 'observable';
 export const isWebGPU = DemoInstance.isWebGPU(currDemo);
